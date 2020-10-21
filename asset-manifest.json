@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gallery/static/css/main.6a373417.chunk.css",
+    "main.js": "/gallery/static/js/main.717d249a.chunk.js",
+    "main.js.map": "/gallery/static/js/main.717d249a.chunk.js.map",
+    "runtime-main.js": "/gallery/static/js/runtime-main.7b22ee28.js",
+    "runtime-main.js.map": "/gallery/static/js/runtime-main.7b22ee28.js.map",
+    "static/js/2.b384828b.chunk.js": "/gallery/static/js/2.b384828b.chunk.js",
+    "static/js/2.b384828b.chunk.js.map": "/gallery/static/js/2.b384828b.chunk.js.map",
+    "index.html": "/gallery/index.html",
+    "precache-manifest.1d9a1c26d5ce4c80652fb9ed49875753.js": "/gallery/precache-manifest.1d9a1c26d5ce4c80652fb9ed49875753.js",
+    "service-worker.js": "/gallery/service-worker.js",
+    "static/css/main.6a373417.chunk.css.map": "/gallery/static/css/main.6a373417.chunk.css.map",
+    "static/js/2.b384828b.chunk.js.LICENSE.txt": "/gallery/static/js/2.b384828b.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/gallery/static/media/Comfortaa-VariableFont_wght.f40889ca.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b22ee28.js",
+    "static/js/2.b384828b.chunk.js",
+    "static/css/main.6a373417.chunk.css",
+    "static/js/main.717d249a.chunk.js"
+  ]
+}
