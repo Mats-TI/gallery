@@ -2,14 +2,15 @@
 import React from 'react';
 
 import './App.css';
-import SideNav from './components/sideNav';
 import Wrapper from './components/wrapper';
-import Front from './components/front';
+import ErrorHandler from './components/ErrorHandler';
 
 function App() {
   return (
     <div className="App">
+      <ErrorHandler>
       <Wrapper/>
+      </ErrorHandler>
     </div>
   );
 }

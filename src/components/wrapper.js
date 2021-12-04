@@ -10,7 +10,8 @@ constructor(props){
         users:[],
         isLoading:true,
         error:null,
-        keyWord:''
+        keyWord:'',
+        fullKeyWord:''
     }
     
 }
@@ -34,11 +35,17 @@ updateLink(){
         keyWord:event.target.value
     })
 }
+changeFullKey=()=>{
+    this.setState({
+        fullKeyWord:this.state.keyWord
+    })
+}
 submitHandler=(event)=>{
     event.preventDefault();
     console.log("submission taking place");
     console.log(this.state.keyWord)
     this.updateLink()
+    this.changeFullKey()
 }
 
     async componentDidMount(){
@@ -72,7 +79,7 @@ submitHandler=(event)=>{
             <br></br>
             <br />
             <br /></div>
-        <h1>Images of your favourite item:</h1>
+        <h1>Images of your favourite item: {this.state.fullKeyWord}</h1>
             <div id="mainGrid">
                 <div className="gallery-img img1">
                     {this.state.isLoading ? 
