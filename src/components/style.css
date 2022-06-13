@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:Sansita; 
+    src:url(./Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+#mainGrid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width:80%;
+    margin:0 auto;
+    grid-template-areas:
+    "img1 img2 img3 img4"
+    "img5 img5 img6 img7"
+    "img8 img9 img10 img10"
+    
+}
+
+#wrapper,.errorPage{
+    background-color: #1affd1;
+    min-height: 100vh;
+    font-family:sansita ;
+    padding-top: 30px;
+}
+.gallery-img{
+    width:100%;
+    
+    background-color: green;
+    background-size: contain;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+}
+.img10{
+    grid-area: img10;
+}
+
+form{
+    display: grid;
+    width:50%;
+    margin:0 auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "mainInput"
+    "mainButton";
+    grid-gap:20px;
+}
+.mainButton{
+    width:25%;
+    grid-area: mainButton;
+    margin:0 auto;
+}
+
+.mainInput{
+    width:40%;
+    margin:0 auto;
+    height:40px;
+    grid-area:mainInput;
+}
+footer{
+    height:200px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+input{
+    border: solid;
+    border-color: darkblue;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    border:solid;
+    border-radius: -10px;
+    border-color:darkblue;
+    background-color:white;
+    color:blue;
+    text-transform: uppercase;
+    font-weight:bold;
+    cursor: pointer;
+}
+h2,h1{
+    width: 80%;
+    margin:30px auto; 
+}
+ @media only screen and (max-width:768px){
+     #mainGrid{
+         display: block;
+     }
+     .gallery-img{
+         margin:20px auto;
+         width: 250px;
+        
+     }
+     form{
+         width: 100%;
+     }
+     h2,h1{
+         width: 80%;
+         margin:20px auto; 
+     }
+     footer{
+         width:80%;
+         margin: 0 auto;
+     }
+     
+ }
