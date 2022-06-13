@@ -27,9 +27,14 @@
     font-family:sansita ;
     padding-top: 30px;
 }
+.errorPage{
+    background-color: #1affd1;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px;
+}
 .gallery-img{
-    width:100%;
-    
+    width:100%;    
     background-color: green;
     background-size: contain;
 }
